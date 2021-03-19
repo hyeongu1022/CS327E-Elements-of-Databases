@@ -1,0 +1,27 @@
+URL(s) to the data you downloaded for each dataset:
+US Citizenship and Immigration Services
+https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub/h-1b-employer-data-hub-files
+Bureau of of Labor Statistics
+https://www.bls.gov/oes/tables.htm
+
+
+Interesting entities and attributes you noticed in the data:
+Our group found interesting that there are two separate variables for approvals and denials of H-1B VISA: Initial Approvals/Denials and Continuing Approvals/Denials. We thought this is very reasonable fact because H-1B VISA can be tried multiple of times.
+
+
+3-5 lines of sample data for each entity of interest:
+H-1B dataset:
+Fiscal Year	Employer	Initial Approvals	Initial Denials		Continuing Approvals	Continuing Denials	NAICS	Tax ID	State	City 		ZIP
+2016		HL ACADEMY INC	1			0			0			0			61		AL	MONTGOMERY	36117
+2016		MINGS MARK INC	1			0			0			0			54		AZ	PHOENIX		85040
+2016		EXALT WIRELESS INC 	1		0			0			0			33		CA	CAMPBELL	95008
+	
+
+NAICS		NAICS_TITLE		OCC_CODE	OCC_TITLE			OCC_GROUP	TOT_EMP		PCT_TOTAL	PCT_RPT		H_MEAN		A_MEAN		MEAN_PRSE
+23		Construction		53-7000		Material Moving Workers		minor		97470		1.36		~		22.00		45,760		1.1
+23 		Construction		537010		Conveyor Operators and Tenders	broad		30		0.00		~		*		*		*	
+31-33		Manufacturing		11-0000		Management Occupations		major		704m680		0.6		5.63		45		134,060		13.4
+
+
+explain what insights you hope to gain from exploring the data:
+We are international students who will eventually confront any VISA problem if we seek for any jobs in US. We would like to analyze these datasets and hope to gain knowledge about which areas of occupation, or occupation itself, have requested for many H-1B. We would like to see which ownership (private or local government, etc..) of occupation tends to request for H-1B petition more. In addition, we hope to derive insight about the income difference between those areas/occupations that companies tend to request for H-1B and those that are not. In the end, we would like to derive informative insight that may be helpful to international students like ourselves.
